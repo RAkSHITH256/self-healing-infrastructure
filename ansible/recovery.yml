@@ -1,0 +1,16 @@
+---
+- name: Recover NGINX service
+  hosts: localhost
+  connection: local
+  gather_facts: false
+
+  tasks:
+    - name: Restart NGINX container
+      community.docker.docker_container:
+        name: nginx-app
+        state: started
+        restart: true
+
+    - name: Display recovery success
+      ansible.builtin.debug:
+        msg: "NGINX container recovery completed."

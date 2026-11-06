@@ -1,0 +1,71 @@
+2026-11-06 18:02:48,042 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.18.0.7:5001
+2026-11-06 18:02:48,042 - INFO - [33mPress CTRL+C to quit[0m
+2026-11-06 18:03:55,803 - INFO - 172.18.0.1 - - [06/Nov/2026 18:03:55] "POST /alerts HTTP/1.1" 200 -
+2026-11-06 18:07:58,444 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.18.0.7:5001
+2026-11-06 18:07:58,444 - INFO - [33mPress CTRL+C to quit[0m
+2026-11-06 18:11:29,898 - INFO - NGINX failure detected. Starting Ansible recovery.
+2026-11-06 18:11:32,179 - INFO - 
+PLAY [Recover NGINX service] ***************************************************
+
+TASK [Restart NGINX container] *************************************************
+changed: [localhost]
+
+TASK [Display recovery success] ************************************************
+ok: [localhost] => {
+    "msg": "NGINX container recovery completed."
+}
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+
+2026-11-06 18:11:32,179 - ERROR - [WARNING]: Host 'localhost' is using the discovered Python interpreter at '/usr/local/bin/python3.12', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.21/reference_appendices/interpreter_discovery.html for more information.
+
+2026-11-06 18:11:32,180 - INFO - 172.18.0.6 - - [06/Nov/2026 18:11:32] "POST /alerts HTTP/1.1" 200 -
+2026-11-06 18:11:59,897 - INFO - 172.18.0.6 - - [06/Nov/2026 18:11:59] "POST /alerts HTTP/1.1" 200 -
+2026-11-06 18:14:11,046 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.18.0.7:5001
+2026-11-06 18:14:11,046 - INFO - [33mPress CTRL+C to quit[0m
+2026-11-06 18:16:40,361 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.18.0.7:5001
+2026-11-06 18:16:40,361 - INFO - [33mPress CTRL+C to quit[0m
+2026-11-06 18:21:11,597 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.18.0.7:5001
+2026-11-06 18:21:11,597 - INFO - [33mPress CTRL+C to quit[0m
+2026-11-06 18:22:33,107 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.18.0.7:5001
+2026-11-06 18:22:33,107 - INFO - [33mPress CTRL+C to quit[0m
+2026-11-06 18:23:33,110 - INFO - NGINX failure detected. Starting Ansible recovery.
+2026-11-06 18:23:35,618 - INFO - 
+PLAY [Recover NGINX service] ***************************************************
+
+TASK [Restart NGINX container] *************************************************
+changed: [localhost]
+
+TASK [Display recovery success] ************************************************
+ok: [localhost] => {
+    "msg": "NGINX container recovery completed."
+}
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+
+2026-11-06 18:23:35,618 - INFO - NGINX recovery successful.
+2026-11-06 18:23:35,619 - INFO - 172.18.0.1 - - [06/Nov/2026 18:23:35] "POST /alerts HTTP/1.1" 200 -
+2026-11-06 18:23:46,196 - INFO - Recovery skipped: cooldown active.
+2026-11-06 18:23:46,196 - INFO - 172.18.0.1 - - [06/Nov/2026 18:23:46] "POST /alerts HTTP/1.1" 200 -
