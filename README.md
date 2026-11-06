@@ -82,7 +82,7 @@ self-healing-infrastructure/
 Clone the repository:
 
 ```bash
-git clone <YOUR-GITHUB-REPOSITORY-URL>
+git clone <https://github.com/RAkSHITH256/self-healing-infrastructure.git>
 cd self-healing-infrastructure
 ```
 
@@ -208,15 +208,3 @@ The Flask development server should also be replaced with a production WSGI serv
 - Persistent cooldown state
 - Recovery metrics and observability
 - Production-grade webhook deployment
-
-## Learning Outcomes
-
-This project demonstrates practical knowledge of:
-
-- DevOps automation
-- Infrastructure monitoring
-- Alert management
-- Container orchestration
-- Configuration management
-- Python webhook development
-- Automated incident recovery
